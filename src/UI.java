@@ -1,4 +1,5 @@
 import javafx.application.Application;
+import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -36,6 +37,7 @@ public class UI extends Application
         //Add VBOX to anchorpane and anchor left
         pane.getChildren().add(VBA);
         pane.setLeftAnchor(VBA,10.0);
+
 
         //Create right labels and textboxes
         Label lblB = new Label("LoadOrder Name and content");
@@ -90,10 +92,10 @@ public class UI extends Application
 
         //Add anchorpane, Action button, and results field
         main.getChildren().addAll(pane,actionButton,pane2);
-
-
+        main.setPadding(new Insets(0,0,10,0));
         stage.setTitle("Load Order Comparer");
-        stage.setMinWidth(stage.getWidth()*2);
+        stage.setMinWidth(1000);
+        stage.setMaxWidth(1000);
         stage.setScene(new Scene(main));
         stage.show();
 
