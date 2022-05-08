@@ -4,8 +4,8 @@ public class Data
 {
     public String[] list1;
     public String[] list2;
-    String list1Name;
-    String list2Name;
+    public String list1Name;
+    public String list2Name;
 
     public void setList1(String list1)
     {
