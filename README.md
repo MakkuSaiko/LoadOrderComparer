@@ -4,13 +4,14 @@ Skyrim Modding tool for comparing two load orders (Copy and pasted into the app 
 Requires JRE, the latest I guess (https://www.java.com/en/download/windows_manual.jsp?locale=en).
 
 How to Use:
-1. Get load order text from LOOT (Copy to clipboard)
-2. Paste into Textfield
-3. Enter your load order name
-4. Copy friend's load order text (Text file, sent over IM, whatever works)
-5. Step 2/3
-6. Click Compare
-7. Look at output to see differences
+1. Launch LoadOrderComparer.jar
+2. Get load order text from LOOT (Copy to clipboard)
+3. Paste into Textfield
+4. Enter your load order name
+5. Copy friend's load order text (Text file, sent over IM, whatever works)
+6. Step 2/3
+7. Click Compare
+8. Look at output to see differences
 
 Note: 
 Will only work for comparing plugins.
