@@ -1,7 +1,7 @@
 # LoadOrderComparer
 Skyrim Modding tool for comparing two load orders (Copy and pasted into the app from loot). Useful for matching mods with a friend for Skyrim together
 
-Requires JRE, the latest I guess (https://www.java.com/en/download/windows_manual.jsp?locale=en).
+Requires AdoptOpenJdk 17.0.1: https://adoptium.net/installation/windows/
 
 How to Use:
 1. Launch LoadOrderComparer.jar
